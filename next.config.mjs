@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/PaperReelDemo_0420',
   eslint: {
     ignoreDuringBuilds: true,
   },
